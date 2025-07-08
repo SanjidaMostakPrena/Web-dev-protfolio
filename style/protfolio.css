@@ -9,20 +9,33 @@
 }
  
 /* shared style*/
+.secondary-bg{
+    background-color: rgb(227, 237, 237) ;
+}
 .text-primary{
-    color: coral;
+    color: rgb(135, 234, 236);
 }
 .dark-2{
     color: #1d1c1c;
 }
 .btn-primary{
     background-color:coral;
-    font-weight: bold;
+    font-weight:  bold;
     font-size: 20px;
-    color: aliceblue;
+    color: rgb(221, 224, 226);
     border: none;
     padding: 18px 35px;
     border-radius: 5px;
+}
+.section-title{
+    front size: 35;
+    front weight:bold;
+    color: #1d1c1c ;
+
+}
+.section-description{
+    front size: 18px;
+    color: aliceblue;
 }
 
 /* header*/
@@ -74,9 +87,29 @@ nav li a {
     front width: 600px;
 }
 .banner-title{
-    front width: bold;
+    front width:  bold;
     front size: 85px;
 }
 .banner-profile-pic{
     width: 580;
+}
+ /* about style*/
+ main{
+ max-width: 1140px;
+ margin: 0 auto;
+}
+
+/* about style*/
+.about{
+boder-radius: 10px;
+padding:130px 150px;
+text-align: center;
+margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    front font-weight:600 ;
 }
